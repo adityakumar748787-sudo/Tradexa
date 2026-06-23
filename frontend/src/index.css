@@ -66,3 +66,21 @@ footer a:hover {
   margin: 12px 0;
   color: #ddd;
 }
+#supportHero{
+    background:#387ed1;
+    color:white;
+    width:100%;
+    padding:50px 0;
+}
+#supportHero a {
+  color: white;
+}
+
+#supportHero a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+#supportHero input::placeholder {
+  color: #777;
+}

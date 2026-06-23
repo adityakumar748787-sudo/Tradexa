@@ -1,14 +1,12 @@
 import React from "react";
-import Navbar from "../Navbar";
-import Footer from "../Footer";
+import CreateTicket from "./CreateTicket";
+import Hero from "./Hero";
 
 function SupportPage() {
   return (
     <>
-      
-      <div className="container mt-5">
-        <h1>Support Page</h1>
-      </div>
+        <Hero />
+        <CreateTicket />
       
     </>
   );
